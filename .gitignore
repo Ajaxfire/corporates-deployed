@@ -15,7 +15,6 @@ npm-debug.log
 yarn-error.log
 yarn-debug.log
 yarn.lock
-package-lock.json
 *.log
 *.log.*
 *.tmp

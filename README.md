@@ -1,5 +1,7 @@
 Playable version of the "Corporates" game. 
 
+To play visit: https://ajaxfire.github.io/corporates-deployed
+
 ## Gameplay
 First select the number of players and enter their names. Min 5 players. Max 10. 
 Each player's role is shown on the screen separately. Pass the device around so that everyone can see their roles. 
@@ -8,7 +10,7 @@ DO NOT REVEAL YOUR ROLES TO ANYONE ELSE DURING THE GAME.
 
 ## Initiatives
 There are 5 initiatives, and each round one player is assigned as the Leader. 
-The leader will select a team that will work on that initiative. The team can only be finalized on agreement with everyone.
+The leader will select a team that will work on that initiative. The leader has to ensure all players agree for the team. There may be angry discussions, debates, flying chairs - all is normal to finalize the set of names that will run that Initiative. The team can only be finalized after agreement with everyone.
 
 ## During the Initiative
 For the Founders, they can only select Success as an option. 
