@@ -1,12 +1,18 @@
-# React + Vite
+Playable version of the "Corporates" game. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Gameplay
+First select the number of players and enter their names. Min 5 players. Max 10. 
+Each player's role is shown on the screen separately. Pass the device around so that everyone can see their roles. 
+Founders can see only their own role. A Mercenary will see their own role and the names of the other mercenaries.
+DO NOT REVEAL YOUR ROLES TO ANYONE ELSE DURING THE GAME.
 
-Currently, two official plugins are available:
+## Initiatives
+There are 5 initiatives, and each round one player is assigned as the Leader. 
+The leader will select a team that will work on that initiative. The team can only be finalized on agreement with everyone.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## During the Initiative
+For the Founders, they can only select Success as an option. 
+However, Mercenaries can choose to sabotage the initiative and make it fail. 1 sabotage is enough to fail an initiative. 
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Win conditions
+Founders win if three initiatives are successful. Mercenaries win if 3 initiatives fail.
