@@ -1,3 +1,5 @@
+# Corporates: Corporate Espionage
+
 Playable version of the "Corporates" game is now available.
 
 To play visit: https://ajaxfire.github.io/corporates-deployed
@@ -5,9 +7,8 @@ To play visit: https://ajaxfire.github.io/corporates-deployed
 **The game requires only a single device. Perfect for parties with 5+ people who can pass the device around.**
 
 ## Backstory
-# Corporates: Corporate Espionage
 
-In the gleaming skyscrapers of Nexus Innovations, a power struggle unfolds behind closed doors. 
+In the gleaming skyscraper of Nexus Innovations, a power struggle unfolds behind closed doors. 
 
 Founded by visionary entrepreneurs who built the company from the ground up, Nexus has grown into a tech giant on the verge of a breakthrough that could revolutionize the industry. But success breeds jealousy, and competing corporations have planted mercenaries within Nexus's ranks.
 

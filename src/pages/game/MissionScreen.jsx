@@ -11,9 +11,26 @@ export const MissionScreen = ({ gameState }) => {
     const playerCount = gameState.players.length;
     const round = state.currentRound;
     
-    if (playerCount <= 6) return round <= 2 ? 2 : 3;
-    if (playerCount === 7) return round <= 1 ? 2 : 3;
-    return round === 0 ? 3 : 4;
+    // if (playerCount <= 6) return round <= 2 ? 2 : 3;
+    // if (playerCount === 7) return round <= 1 ? 2 : 3;
+    // return round === 0 ? 3 : 4;
+
+    // Round sizes based on the provided table
+    const teamSizes = {
+      5: [2, 3, 2, 3, 3],
+      6: [2, 3, 4, 3, 4],
+      7: [2, 3, 3, 4, 4],
+      8: [3, 4, 4, 5, 5],
+      9: [3, 4, 4, 5, 5],
+      10: [3, 4, 4, 5, 5]
+    };
+    
+    // Get the correct round size array based on player count
+    // Default to 5 players if count is less than 5, or 10 if greater than 10
+    const sizeArray = teamSizes[Math.min(Math.max(playerCount, 5), 10)];
+    
+    // Return the size for the current round
+    return sizeArray[round];
   };
 
   const handlePlayerSelect = (index) => {

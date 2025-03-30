@@ -83,7 +83,7 @@ export const PlayerSetupScreen = ({ gameState }) => {
           <button 
             onClick={handleSubmit} 
             disabled={names.length !== playerCount || !names.every(name => name.trim())}
-            className="w-full py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 flex items-center justify-center gap-2"
+            className="button-primary w-full py-2 px-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 flex items-center justify-center gap-2"
           >
             Continue
             <ArrowRight className="w-4 h-4" />
